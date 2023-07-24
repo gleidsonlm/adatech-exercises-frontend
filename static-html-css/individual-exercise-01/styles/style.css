@@ -270,6 +270,12 @@ input#email {
   border: solid 1px lightgrey;
 }
 
+input#email::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+
 div#options-newsletter {
   position: relative;
   margin-top: 3em;
@@ -304,7 +310,6 @@ ul.social {
   color: black;
 }
 
-/* Add a hover effect if you want */
 a.fa:hover {
   opacity: 0.5;
 }
